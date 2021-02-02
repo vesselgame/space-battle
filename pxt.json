@@ -1,0 +1,34 @@
+{
+    "name": "Space Battle",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "palette": "*",
+        "animation": "*",
+        "controller": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.9",
+        "tag": "v1.2.9",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/2b200900459096720c107eba4cbfa0388ee2c1cd",
+        "target": "1.3.42",
+        "pxt": "6.2.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
